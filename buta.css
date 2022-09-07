@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&family=Poppins:ital,wght@1,600&display=swap');
+
+/* tanda bintang fungsinya untuk memanggil */
+*{
+    font-family: 'poppins';
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+.hero{
+    width: 100%;
+    background-color: mediumturquoise;
+}
+nav{
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(222, 30, 30);
+}
+nav ul li a:hover{
+color: rgba(133, 3, 203, 0.63);
+transition: 1s;
+}
+.content img{
+    width:100%;
+    background-size:cover;
+    background-position:center;
+    height:100vh;
+}
+.content h3{
+    color: whitesmoke;
+    position: absolute;
+    font-size: 30px;
+    top: 22rem;
+    left: 8%;
+    transform: translateY(-50%);
+}
+.content h1{
+    color: whitesmoke;
+    position: absolute;
+    font-size: 36px;
+    top: 25rem;
+    left: 8%;
+    transform: translateY(-50%);
+
+}
+.content h2{
+    color: whitesmoke;
+    position: absolute;
+    font-size: 36px;
+    top: 28rem;
+    left: 8%;
+    transform: translateY(-50%);
+}
+.about{
+    width: 100%;
+    background-color: darkblue;
+    height: 850px;
+    display: flex;
+    justify-content: center;
+align-items: center;
+}
+.about-img{
+    width: 200px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.about-text{
+    color: aliceblue;
+    font-size: 25px;
+    width: 550px;
+}
+.main{
+    width: 80%;
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+}
+.contact{
+    width: 200px;
+    height: auto;
+    border-radius: 20px;
+    animation-play-state:running;
+    -webkit-animation-play-state: running;
+
+}
+.contact-number{
+    color: rgb(23, 127, 218);
+    font-size: 25px;
+    width: 550px;
+}
+.main{
+    width: 50%;
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+}
